@@ -5,7 +5,6 @@ float t;
 void setup() {
   background(20);
   size(500, 500);
-  beginRecord(PDF, "everything.pdf");
 }  
   
 void draw() {
@@ -36,11 +35,4 @@ float x2(float t) {
 
 float y2(float t) {
   return -cos(t / 20) * 200 + cos(t / 12) * 20;
-}  
-
-void keyPressed() {
-  if (key == 'q') {
-    endRecord();
-    exit();
-  }
 }
