@@ -44,7 +44,7 @@ function setup() {
 }
 
 var drawFood = function() {
-    food = loadShape("https://cdn.rawgit.com/jnmperrier/Donut/gh-pages/donutREsaved.svg")
+    food = loadShape("https://cdn.rawgit.com/jnmperrier/Donut/gh-pages/donutREsaved.svg");
     push();
     fill(255 * phase, 255, 255);
     noStroke();
