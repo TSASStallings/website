@@ -1,5 +1,5 @@
 // Snake Game
-PShape food;
+PShape snack;
 
 // Global Vars for Spin-off
 var tileSize = 25;
@@ -44,7 +44,7 @@ function setup() {
 }
 
 var drawFood = function() {
-    food = loadShape("https://cdn.rawgit.com/jnmperrier/Donut/gh-pages/donutREsaved.svg");
+    snack = loadShape("https://cdn.rawgit.com/jnmperrier/Donut/gh-pages/donutREsaved.svg");
     push();
     fill(255 * phase, 255, 255);
     noStroke();
